@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Guestbook() {
     return (
-        <div className={styles.footer}>
+        <div id="contact" className={styles.footer}>
             <div>
                 <img className={styles.sun} src="/images/sun.svg" alt=""/>
                 <h2 className={styles.sunny}>Sunny Side</h2>

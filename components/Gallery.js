@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Gallery() {
     return (
-        <div className={styles.gallery}>
+        <div id="gallery" className={styles.gallery}>
             <div>
                 <h1>GALLERY</h1>
                 <span className={styles.topic}>~ What we make ~</span>

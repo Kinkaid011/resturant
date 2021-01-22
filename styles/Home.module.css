@@ -2,11 +2,7 @@
   padding: 0 15px;
 }
 
-.switch {
-  width: 28px;
-  height: 28px;
-  cursor: pointer;
-}
+
 
 .title {
   font-family: 'Sofia', cursive;
@@ -262,7 +258,7 @@
 
 .book span {
   display: block;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0 0 1rem 0;
 }
 
@@ -347,6 +343,8 @@
   .container {
     padding: 0 3rem;
   }
+
+
 
   .title {
     font-family: 'Sofia', cursive;
@@ -544,7 +542,7 @@
     font-family: 'Sofia', cursive;
     font-size: 84px;
     text-align: left;
-    margin: 2rem 0 0 0;
+    margin: 0;
     color: #C13D24;
   }
   
@@ -575,6 +573,7 @@
     justify-self: left;
     font-weight: 500;
     width: 70%;
+    line-height: 1.75rem;
   }
   
   .caption img {
@@ -602,6 +601,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    position: relative;
+    bottom: 30px;
   }
 
 

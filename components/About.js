@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function About() {
     return (
-        <div className={styles.welcome}>
+        <div id="about" className={styles.welcome}>
             <div id={styles.aboutOne} className={styles.heading}>
                 <h1>WELCOME</h1>
                 <span className={styles.topic}>~ Who we are ~</span>

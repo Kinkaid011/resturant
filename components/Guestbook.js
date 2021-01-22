@@ -3,14 +3,14 @@ import styles from '../styles/Home.module.css'
 
 export default function Guestbook() {
     return (
-        <div className={styles.guestbook}>
+        <div id="reservation" className={styles.guestbook}>
             <div id={styles.bookOne}>
                 <h1>GUESTBOOK</h1>
                 <span className={styles.topic}>~ What they say ~</span>
             </div>
 
             <div id={styles.bookTwo} className={styles.review}>
-                <h2>“I watch cooking shows all the time and It’s so amazing!”</h2>
+                <h2>“I don't know what to do with my hands after eating this”</h2>
                 <div className={styles.rating}>
                     <img src="./images/star.svg" alt="star icon"/>
                     <img src="./images/star.svg" alt="star icon"/>
@@ -21,13 +21,13 @@ export default function Guestbook() {
             </div>
 
             <div id={styles.bookThree} className={styles.review}>
-                <h2>“I watch cooking shows all the time and It’s so amazing!”</h2>
+                <h2>“Man this has to have some shake and bake in it!”</h2>
                 <div className={styles.rating}>
                     <img src="./images/star.svg" alt="star icon"/>
                     <img src="./images/star.svg" alt="star icon"/>
                     <img src="./images/star.svg" alt="star icon"/>
                     <img src="./images/star.svg" alt="star icon"/>
-                    <span>- RICKY BOBBY</span>
+                    <span>-Cal Naughton</span>
                 </div>
             </div>
 
